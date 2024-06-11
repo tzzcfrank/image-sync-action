@@ -17,4 +17,4 @@ jobs:
         env: 
           ACR_PASSWORD: ${{ secrets.ACR_PASSWORD }}
 
-        run: ./image-syncer --auth=./auth.yaml --images=./images.yaml --proc=2
+        run: ./image-syncer --auth=./auth.yaml --images=./images.yaml --proc=20 --retries=3
