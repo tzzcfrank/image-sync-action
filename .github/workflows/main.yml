@@ -15,6 +15,5 @@ jobs:
           images_file: ./images.yaml
           version: latest
           proc: 20
-          arch: amd64,arm64
         env:
           ACR_PASSWORD: ${{ secrets.ACR_PASSWORD }}
