@@ -2,3 +2,4 @@ v2fly/v2fly-core:v5.16.1,v4.45.0: "registry.cn-hangzhou.aliyuncs.com/docker-mini
 kindest/node:v1.30.0: "registry.cn-hangzhou.aliyuncs.com/docker-minion/kindest-node"
 debian:10,11,12: "registry.cn-hangzhou.aliyuncs.com/docker-minion/debian"
 alpine:3.20: "registry.cn-hangzhou.aliyuncs.com/docker-minion/alpine"
+golang:1.22.2: "registry.cn-hangzhou.aliyuncs.com/docker-minion/golang"
